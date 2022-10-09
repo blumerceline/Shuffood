@@ -32,7 +32,7 @@ const Start = () => {
         return(
             <Stack direction="column" sx={{backgroundColor: '#f5efd7', position: 'relative',alignItems:"center", justifyContent:"center", 
             flexWrap:"wrap"}}>
-                <Box sx={{height:{sx: 'auto'}, px: {sx:0,md:2}}}>
+                <Box sx={{height:{sx: 'auto'}, alignContent:'center', px: {sx:0,md:2}}}>
                     <Typography variant='h2' sx={{mt: '40px',mb: '50px'}}>Start Shuffling!</Typography>
                     <button onClick={handleStart} type="button" className='btn-style btn btn-dark'>Shuffle</button>
                 </Box>
